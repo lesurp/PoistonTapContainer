@@ -13,14 +13,17 @@ Why you want to use it:
 ## The files	
 
 * .dockerignore and Dockerfile
-		Docker specific files.
+
+Docker specific files.
 
 * package.json
-		Used by NodeJS to determine the dependencies of the javascript file
+
+Used by NodeJS to determine the dependencies of the javascript file
 
 * server.js
-		The file named backend_server.js in the original PoisonTap repository.
-		If you want to rename it, you also need to modify the file **package.json**
+
+The file named backend_server.js in the original PoisonTap repository.
+If you want to rename it, you also need to modify the file **package.json**
 
 
 ## Version
