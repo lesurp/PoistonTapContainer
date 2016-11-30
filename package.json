@@ -1,0 +1,11 @@
+{
+  "name": "poisontap",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "websocket": "1.0.23"
+  }
+}
