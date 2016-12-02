@@ -26,6 +26,17 @@ now)
 The file of the same named found in the original PoisonTap repository.
 If you want to rename it, you also need to modify the file **package.json**
 
+## Usage
+
+A script, `run.sh` can be used to control the container/image:
+
+````
+run.sh build # build the image
+run.sh start # run a container from the image
+run.sh restart # restart the container (should not be necessary ?)
+run.sh remove_container # stop and delete the container
+run.sh remove_image # remove the container and the image
+````
 
 ## Version
 

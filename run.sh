@@ -21,8 +21,17 @@ help() {
 	echo -e "Usage is:\n$0 (build|start|restart)"
 }
 
+remove_container() {
+	docker rm -f $CONTAINER_NAME
+}
+
+remove_image() {
+	remove_container
+	docker rmi $IMAGE_NAME
+}
+
 case $1 in
-	build|start|restart)
+	build|start|restart|remove_image|remove_container)
 		$1;;
 	*)
 		help;;
