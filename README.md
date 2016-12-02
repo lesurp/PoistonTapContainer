@@ -18,7 +18,8 @@ Docker specific files.
 
 * package.json
 
-Used by NodeJS to determine the dependencies of the javascript file
+Used by NodeJS to determine the dependencies of the javascript file (only websocket for
+now)
 
 * backend_server.js
 
