@@ -20,9 +20,9 @@ Docker specific files.
 
 Used by NodeJS to determine the dependencies of the javascript file
 
-* server.js
+* backend_server.js
 
-The file named backend_server.js in the original PoisonTap repository.
+The file of the same named found in the original PoisonTap repository.
 If you want to rename it, you also need to modify the file **package.json**
 
 
