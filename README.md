@@ -1,5 +1,15 @@
 # PoisonTap container
 
+## What is a container ?
+
+To use this container you need to install Docker, a tool that allows you to run "containers". This is close to a Virtual Machine (but not exactly the same). If you want to learn more about it, you should check [Docker's website](https://www.docker.com/).
+
+Depending on which system you want to run the Nodejs server on, it might not be worth getting into Docker just for that (although learning Docker is valuable in general), although you should honestly be able to install Docker and run my container without even understanding Docker at all.
+
+If your system already uses a Nodejs version that supports the PoisonTap code (ECMAScript v6), you really don't have to bother with this container - just start PoisonTap node backend_server.js.
+If, like me, you run Debian, for which the package Nodejs does not support ECMAScript v6, then using a container is definitely easier.
+
+
 ## Why a container ?
 
 This Docker container can be used if you want to use the [PoisonTap vulnerability] (https://github.com/samyk/poisontap).
